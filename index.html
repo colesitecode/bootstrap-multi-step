@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>TECH-TO-GO APPOINTMENT</title>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap" rel="stylesheet"><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" />
+</head>
+<body>
+<!--PEN CONTENT     -->
+<div class="content">
+  <!--content inner-->
+  <div class="content__inner">
+
+    <div class="container overflow-hidden" >
+      <!--multisteps-form-->
+      <div class="multisteps-form">
+        <!--progress bar-->
+        <div class="row">
+          <div class="col-12 col-lg-8 ml-auto mr-auto mb-4">
+            <div class="multisteps-form__progress">
+              <button class="multisteps-form__progress-btn js-active" type="button">Machine</button>
+              <button class="multisteps-form__progress-btn" type="button">Service</button>
+              <button class="multisteps-form__progress-btn" type="button">Date & Time</button>
+              <button class="multisteps-form__progress-btn" type="button">Contact Details</button>
+              <button class="multisteps-form__progress-btn" type="button">Unit Details</button>
+            </div>
+          </div>
+        </div>
+        <!--form panels-->
+        <div class="row">
+          <div class="col-9 col-lg-8 m-auto">
+
+
+            <div class="alert alert-warning">
+              <span class="icon">
+                  <i class="fa fa-exclamation-triangle"></i>
+              </span>
+          
+              <div class="text">
+                  <strong>Warning</strong>
+                  <p>Warning Message Description Goes Here!</p>
+              </div>
+          
+              <button class="close">
+                  <i class="fa fa-close" style="color: #000;"></i>
+              </button>
+          
+            </div>
+
+
+            <form class="multisteps-form__form">
+              <!-------------------MACHINE TYPE------------------->
+              <div class="multisteps-form__panel p-4 rounded bg-white js-active" data-animation="scaleIn">
+                <h3 class="multisteps-form__title">Machine Type</h3>
+                <div class="multisteps-form__content">
+                  <div id="machine-menu">
+                    <div class="machine active">
+                        <i class="far fa-check-circle" style="font-size: 32px;
+                            padding: 10px; position: absolute; right: 0; top: 0;">
+                        </i>
+                        <i class="fas fa-desktop" style="margin-top: 50px;"></i>
+                            <h4>Desktop</h4>
+                    </div>
+
+                    <div class="machine">
+                        <i class="far fa-check-circle" style="font-size: 32px;
+                            padding: 10px; position: absolute; right: 0; top: 0;">
+                        </i>
+                        <i class="fas fa-laptop" style="margin-top: 50px;"></i>
+                        <h4>Laptop</h4>
+                    </div>
+
+                    <div class="machine">
+                        <i class="far fa-check-circle" style="font-size: 32px;
+                            padding: 10px; position: absolute; right: 0; top: 0;">
+                        </i>
+                        <i class="fas fa-print" style="margin-top: 50px;"></i>
+                        <h4>Printer</h4>
+                    </div>
+
+                    <div class="machine">
+                        <i class="far fa-check-circle" style="font-size: 32px;
+                            padding: 10px; position: absolute; right: 0; top: 0;">
+                        </i>
+                        <i class="fas fa-mobile-alt" style="margin-top: 50px;"></i>
+                        <h4>Mobile</h4>
+                    </div>
+
+                  </div>
+                  <div class="button-row d-flex mt-4">
+                    <button class="btn btn-primary ml-auto js-btn-next" type="button" title="Next" style="padding:10px 50px 10px 50px;">Next</button>
+                  </div>
+                </div>
+              </div>
+              <!------------------------SERVICE TYPE-------------------->
+              <div class="multisteps-form__panel p-4 rounded bg-white" data-animation="scaleIn">
+                <h3 class="multisteps-form__title">Your Address</h3>
+                  <div class="multisteps-form__content">
+                    <div id="service-type">
+                      <div class="service active">
+                          <i class="far fa-check-circle" style="font-size: 32px;
+                              padding: 10px; position: absolute; right: 0; top: 0;">
+                          </i>
+                          <i class="fas fa-tools" style="margin-top: 50px;"></i>
+                              <h4>Repair</h4>
+                      </div>
+      
+                      <div class="service">
+                          <i class="far fa-check-circle" style="font-size: 32px;
+                              padding: 10px; position: absolute; right: 0; top: 0;">
+                          </i>
+                          <i class="fas fa-users-cog" style="margin-top: 50px;"></i>
+                          <h4>Installation</h4>
+                      </div>
+      
+                      <div class="service">
+                          <i class="far fa-check-circle" style="font-size: 32px;
+                              padding: 10px; position: absolute; right: 0; top: 0;">
+                          </i>
+                          <i class="fas fa-user-shield" style="margin-top: 50px;"></i>
+                          <h4>Maintenance</h4>
+                      </div>
+      
+                      <div class="service">
+                          <i class="far fa-check-circle" style="font-size: 32px;
+                              padding: 10px; position: absolute; right: 0; top: 0;">
+                          </i>
+                          <i class="fab fa-creative-commons-sampling" style="margin-top: 50px;"></i>
+                          <h4>Diagnostic</h4>
+                      </div>
+                    </div>
+                
+                  <div class="button-row d-flex mt-4">
+                    <button class="btn btn-primary js-btn-prev" type="button" title="Prev" style="padding:10px 50px 10px 50px;">Prev</button>
+                    <button class="btn btn-primary ml-auto js-btn-next" type="button" title="Next" style="padding:10px 50px 10px 50px;">Next</button>
+                  </div>
+                </div>
+              </div>
+               <!------------------------DATE AND TIME-------------------->
+              <div class="multisteps-form__panel p-4 rounded bg-white" data-animation="scaleIn">
+                <h3 class="multisteps-form__title">Date and Time</h3>
+                <div class="multisteps-form__content">
+                  <div class="row">
+                    <div class="col-12 col-md-6 mt-4">
+                     
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="button-row d-flex mt-4 col-12">
+                      <button class="btn btn-primary js-btn-prev" type="button" title="Prev" style="padding:10px 50px 10px 50px;">Prev</button>
+                      <button class="btn btn-primary ml-auto js-btn-next" type="button" title="Next" style="padding:10px 50px 10px 50px;">Next</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+               <!-----------------------CONTACT DETAILS-------------------->
+              <div class="multisteps-form__panel p-4 rounded bg-white" data-animation="scaleIn">
+                <h3 class="multisteps-form__title">Additional Comments</h3>
+                <div class="multisteps-form__content">
+                  <div class="form-row mt-4">
+                    <div class="col-12 col-sm-6">
+                      <input class="multisteps-form__input form-control" type="text" placeholder="First Name"/>
+                    </div>
+                    <div class="col-12 col-sm-6 mt-4 mt-sm-0">
+                      <input class="multisteps-form__input form-control" type="text" placeholder="Last Name"/>
+                    </div>
+                  </div>
+                  <div class="form-row mt-4">
+                    <div class="col-12 col-sm-6">
+                      <input class="multisteps-form__input form-control" type="text" placeholder="Login"/>
+                    </div>
+                    <div class="col-12 col-sm-6 mt-4 mt-sm-0">
+                      <input class="multisteps-form__input form-control" type="email" placeholder="Email"/>
+                    </div>
+                  </div>
+                  <div class="button-row d-flex mt-4">
+                    <button class="btn btn-primary js-btn-prev" type="button" title="Prev" style="padding:10px 50px 10px 50px;">Prev</button>
+                    <button class="btn btn-primary ml-auto js-btn-next" type="button" title="Next" style="padding:10px 50px 10px 50px;">Next</button>
+                  </div>
+                </div>
+              </div>
+              <!-----------------------UNIT DETAILS-------------------->
+              <div class="multisteps-form__panel p-4 rounded bg-white" data-animation="scaleIn">
+                <h3 class="multisteps-form__title">specify the issue</h3>
+                <div class="multisteps-form__content">
+                  <div class="form-row mt-4">
+                    <textarea class="multisteps-form__textarea form-control" placeholder="Please specify the issue"></textarea>
+                  </div>
+                  <div class="button-row d-flex mt-4">
+                    <button class="btn btn-primary js-btn-prev" type="button" title="Prev" style="padding:10px 50px 10px 50px;">Prev</button>
+                    <button class="btn btn-success ml-auto" type="button" title="Send" style="padding:10px 50px 10px 50px;">Submit</button>
+                  </div>
+                </div>
+              </div>
+
+            </form>
+          </div>
+          <div id="summary-details" class="col-3" style="height: 400px;">
+
+          </div>
+        </div>
+      </div>
+
+
+      
+
+
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+<script  src="./script.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
